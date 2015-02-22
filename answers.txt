@@ -17,10 +17,10 @@ Advanced Question Answers
 
 1. Run 'git branch' to list the local branches and 'git branch -r' to list the remote branches
 
-2. Run 'git branch advanced', make 2 comits, run 'git checkout master' and then 'git merge advanced'.  Run 'git log' on master to inspect the commits
+2. Run 'git branch advanced', then 'git checkout advanced'.  Make a commit the same way you would on master
 
-3. While on bugfix42, run 'git rebase master'.  Note that you can also run 'git rebase master topic' and remove the requirement of having bugfix42 be your current branch.
+3. While on the advanced branch, run 'git push origin advanced'
 
-4. Run 'git rebase --onto master server bugfix57' from any branch
+4. Run 'git checkout master', then 'git merge advanced'
 
-5. Run 'git rebase --onto server~4 server~1 server'
+5. Run 'git branch -d advanced' and 'git push origin --delete advanced' (can also run 'git push origin :advanced')

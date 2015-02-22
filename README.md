@@ -19,7 +19,11 @@ solutions on how to solve these problems.
 
 1. List all of the branches (remote and local)
 
-2. Create a branch called advanced, make 2 commits, and merge it back with master. Be sure to take a look at the logs on master.
+2. Create a branch called advanced and make a commit on it. 
 
-3. Delete advanced
+3. Push advanced out to a github repository. If this works, Github should say that you have 2 branches on your remote
+
+4. Merge advanced with master
+
+5. Delete advanced on both the local and remote repos.
 
